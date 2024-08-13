@@ -1,0 +1,225 @@
+.custom-color-input {
+  padding: 0; /* Set padding to 0 to remove the gap */
+  margin: 0;
+  border: 1px solid #ced4da; /* Set a border */
+  border-radius: 0.25rem; /* Add border-radius for rounded corners */
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; /* Add transition for smoother effect */
+  outline: none;
+  
+   /* Set margin to 0 to remove the gap */
+}
+.custom-color-input:focus {
+  border-color: #80bdff; /* Change border color on focus */
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Add box shadow on focus */
+}
+.custom-color-input1{
+  height: 40px; 
+}
+
+/* confirmDialog */
+
+.confirmTitle{
+
+}
+
+.confirmContent{
+
+}
+
+.msg-container{
+    display: flex;
+    flex-direction: column;
+}
+.msg-1{
+    margin: 0 0 15px 0;
+    padding: 0;
+    width: fit-content;
+    height: fit-content;
+}
+
+.msg-2{
+    margin: 0 0 0 5px;
+    padding: 15px;
+    width: 100%;
+    height: fit-content;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+.file-upload{
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 5px;
+    border: 1px solid rgb(235, 238, 242);
+}
+
+.input-name{
+    width: fit-content;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(98, 89, 201);
+    display: flex;
+    font-weight: bold;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+.file-upload input{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0%;
+}
+
+----------------------------------------------------------------------------------------
+/* UserProfile.css */
+
+/* UserProfile.css */
+
+.userfile-upload {
+    height: 60px; 
+    border-radius: 100%; 
+    overflow: hidden; 
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    /* border: 3px solid rgb(14, 14, 14);  */
+    
+    position: relative;
+    width:60%; 
+    align-items:center; 
+    margin:auto; 
+    display:flex;  
+  }
+  .userfile-upload input{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0%;
+}
+  .userfile-upload img, .userfile-upload .char-img {
+   
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+  margin-left: auto;
+  margin-right: auto;
+    
+    /* border: 1px solid rgb(235, 238, 242); */
+  }
+.char-img{
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  background-color: #6259c9;
+  color: white;
+}
+.char-img span{
+  /* font-weight: bolder; */
+  font-size: 4.5rem;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  transform: translate(0px, -8px);
+
+} 
+  .userfile-upload i{
+display:flex;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+/* position: relative; */
+ bottom: 20%;
+  /* left: auto; */
+    justify-content:center;
+     width:5%;
+     color: white;
+
+  }
+  .mini-prof-text{
+    width: 100%;
+    height: 100%;
+    background-color: #6259c9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.mini-prof-text span{
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.start-container{
+  position: absolute;
+  right: -25px;
+  top: -1px
+}
+.fa-star{
+  font-size: 1.1rem;
+}
+.fa-star.delete{
+  color: #f82649 ;
+}
+
+.fa-star:hover {
+  color: #f82649 ;
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* News Scroller at Footer starts */
+.running-paragraph {
+  animation: moveAndColorChange 20s linear infinite;
+  position: relative; /* Add this to establish a positioning context */
+  z-index: 1; /* Ensure the paragraph stays above the smoke */
+}
+
+@keyframes moveParagraph {
+  from { transform: translateX(100%); }
+  to { transform: translateX(-100%); }
+}
+
+.footer-text {
+  animation: moveText 10s linear infinite;
+}
+
+@keyframes moveText {
+  from { transform: translateX(100%); }
+  to { transform: translateX(-100%); }
+}
+
+.heart-icon {
+  color: red;
+  animation: beatHeart 1.5s infinite;
+}
+
+@keyframes moveAndColorChange {
+  0% {
+      transform: translateX(100%);
+      color: rgb(180, 78, 78);
+  }
+  100% {
+      transform: translateX(-100%);
+      color: rgb(40, 19, 227);
+  }
+}
+/* End of News Scroller at Footer*/

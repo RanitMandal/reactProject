@@ -1,0 +1,27 @@
+.confirmTitle{
+
+}
+
+.confirmContent{
+
+}
+
+.msg-container{
+    display: flex;
+    flex-direction: column;
+}
+.msg-1{
+    margin: 0 0 15px 0;
+    padding: 0;
+    width: fit-content;
+    height: fit-content;
+}
+
+.msg-2{
+    margin: 0 0 0 5px;
+    padding: 15px;
+    width: 100%;
+    height: fit-content;
+    border: 1px solid;
+    border-radius: 15px;
+}

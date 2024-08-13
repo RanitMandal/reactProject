@@ -1,0 +1,89 @@
+.table-header{
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.highlight-hover :hover {
+    background: rgb(224, 201, 246);
+}
+.new-dtatable tr:nth-child(even) {   
+    background-color: rgb(235, 232, 255) !important;
+}
+.altrcolorRow tr:nth-child(even) {   
+    background-color: rgb(235, 232, 255) !important;
+}
+.dbtDshTable .MuiTableRow-root.css-1sdw5na-MuiTableRow-root:nth-child(4n+1) {
+    background-color: rgb(235, 232, 255) !important;
+}
+
+.allAppTable .MuiTableRow-root.css-1sdw5na-MuiTableRow-root:nth-child(even) {
+    background-color: rgb(235, 232, 255) !important;
+}
+
+.tooltip {
+    position: relative !important;
+      display: inline-block !important;
+      opacity: 1 !important;
+      font-size: 18px;
+      line-height: 15px;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden !important;
+    min-width: 120px !important;
+    background-color: black !important;
+    color: #fff !important;
+    text-align: center !important;
+    border-radius: 6px !important;
+    padding: 5px 5px !important;
+    font-size: 12px;
+  
+   
+    position: absolute !important;
+    z-index: 1 !important;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible !important;
+  }
+
+  .custom-loader {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    text-align: center;
+}
+.custom-loader-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.deptDashBoard_loader_wp{
+    width: 100%;
+    height: 400px;
+}
+
+  
+.btn-loader {
+    border-radius: 50%;
+    border: 4px solid white;
+    border-left-color: transparent;
+    width: 24px;
+    height: 24px;
+    animation: spin89345 1s linear infinite;
+  }
+  
+  @keyframes spin89345 {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
